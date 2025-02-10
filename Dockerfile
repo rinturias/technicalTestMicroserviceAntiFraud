@@ -16,7 +16,7 @@ FROM build AS publish
 RUN dotnet publish "Yape.AntiFraud.Api.csproj" -c Release -o /app/publish
 
 FROM base AS final
-
+ENV ASPNETCORE_URLS=http://0.0.0.0:8082
 EXPOSE 8082
 
 
