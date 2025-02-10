@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yape.AntiFraud.Api", "Yape.AntiFraud.Api\Yape.AntiFraud.Api.csproj", "{A62696B3-ED07-4FAD-83E5-547B64A030F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yape.AntiFraud.Application", "Yape.AntiFraud.Application\Yape.AntiFraud.Application.csproj", "{7619A20A-8089-4A83-8947-E67884554076}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yape.AntiFraud.Domain", "Yape.AntiFraud.Domain\Yape.AntiFraud.Domain.csproj", "{574435EC-2EC0-4E17-98BD-EC86CE1A1C82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yape.AntiFraud.Infrastructure", "Yape.AntiFraud.Infrastructure\Yape.AntiFraud.Infrastructure.csproj", "{B3BFEA71-FAF6-4CEB-BB6C-E27ADC572DB4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A62696B3-ED07-4FAD-83E5-547B64A030F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A62696B3-ED07-4FAD-83E5-547B64A030F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A62696B3-ED07-4FAD-83E5-547B64A030F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A62696B3-ED07-4FAD-83E5-547B64A030F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7619A20A-8089-4A83-8947-E67884554076}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7619A20A-8089-4A83-8947-E67884554076}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7619A20A-8089-4A83-8947-E67884554076}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7619A20A-8089-4A83-8947-E67884554076}.Release|Any CPU.Build.0 = Release|Any CPU
+		{574435EC-2EC0-4E17-98BD-EC86CE1A1C82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{574435EC-2EC0-4E17-98BD-EC86CE1A1C82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{574435EC-2EC0-4E17-98BD-EC86CE1A1C82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{574435EC-2EC0-4E17-98BD-EC86CE1A1C82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3BFEA71-FAF6-4CEB-BB6C-E27ADC572DB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3BFEA71-FAF6-4CEB-BB6C-E27ADC572DB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3BFEA71-FAF6-4CEB-BB6C-E27ADC572DB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3BFEA71-FAF6-4CEB-BB6C-E27ADC572DB4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
